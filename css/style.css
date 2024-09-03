@@ -1,0 +1,409 @@
+.page {
+    max-width: 1440px;
+    min-height: 6567px;
+    background-color: #12100d;
+    margin: auto;
+}
+.logo {
+    padding: 65px 0px 66px 535px;
+}
+.navigation {
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url(../images/backgroundHeader.png);
+    width: 1325px;
+    height: 67px;
+    padding: 0px 183px;
+    justify-content: space-between;
+    top: 0;
+    z-index: 10; 
+    margin-left:  57px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.nav_img {
+    width: 1325px;
+    height: 729px;
+}
+.HeaderLink {
+    font-family: 'ObjektivBold';
+    font-size: 37.5px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #151313;
+}
+.AboutAs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 110px;
+    margin-top: 82px;
+    margin-left: 57px;
+    width: 1326px;
+    min-height: 518px;
+    background-image: url(../images/background2.png);
+}
+.H2_AboutAs {
+    font-family: 'VerveineRegular';
+    font-size: 122.1px;
+    line-height: 122px;
+    font-weight: 400;
+    color: #151313;
+}
+.prgf_AboutAs {
+    margin-top: 112px;
+    font-family: 'RobotoRegular';
+    font-size: 33.4px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #151313;
+    text-align: center;
+}
+.menu {
+    margin-top: 82px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.block_1 {
+    display: flex;
+    flex-direction: row;
+}
+.menu_cardBurger {
+    background-image: url(../images/backgroundMenu.png);
+    width: 325px;
+    height: 518px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 73px 40px;
+}
+.menu_hBurger, .menu_hSandwich, .menu_hOmlette, .menu_hSaltyCrepe {
+    font-family: 'ObjektivBold';
+    font-size: 44.5px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #12100d;
+}
+.menu_BPrice, .menu_SPrice, .menu_OPrice, .menu_SCPrice {
+    font-family: 'RobotoRegular';
+    font-size: 25px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #12100d;
+}
+.menu_cardFood {
+    width: 674px;
+    height: 517px;
+}
+.menu_cardSandwich {
+    width: 325px;
+    height: 518px;
+    background-image: url(../images/backgroundMenu.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 73px 40px;
+}
+.block_2 {
+    display: flex;
+    flex-direction: row;
+}
+.menu_cardFood2 {
+    width: 674px;
+    height: 518px;
+    background-image: url(../images/backgroundFood2.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MainMenu {
+    font-family: 'VerveineRegular';
+    font-size: 208.4px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-style: italic;
+    color: #000000;
+}
+.pizza1, .pizza2 {
+    width: 204px;
+    height: 205px;
+}
+.pizza1 {
+    margin-top: 146px;
+    margin-right: 94px;
+}
+.pizza2 {
+    margin-top: 146px;
+    margin-left: 94px;
+}
+.block_3 {
+    display: flex;
+    flex-direction: row;
+}
+.menu_cardOmlette {
+    width: 325px;
+    height: 518px;
+    background-image: url(../images/backgroundMenu.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 73px 30px 73px 40px;
+}
+.menu_cardFood3 {
+    width: 674px;
+    height: 517px;
+}
+.menu_cardSaltyCrepe {
+    width: 325px;
+    height: 518px;
+    background-image: url(../images/backgroundMenu.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 73px 30px 73px 40px;
+}
+.Drink {
+    margin-top: 82px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.imgDrink {
+    width: 1324px;
+    height: 515px;
+}
+.DrinkMenu {
+    width: 963px;
+    height: 429px;
+    background-image: url(../images/drinkmenu.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Drink_ {
+    display: flex;
+    flex-direction: row;
+}
+.DrinkMenu_h {
+    font-family: 'ObjektivBold';
+    font-size: 36.3px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #12100d;
+}
+.DrinkMenu_price {
+    font-family: 'RobotoRegular';
+    font-size: 29.9px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #12100d;
+}
+.decor1, .decor2 {
+    display: flex;
+    flex-direction: column;
+    padding: 82px 37px;
+    justify-content: space-between;
+}
+.DessertMenu {
+    margin-top: 81px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.block_4 {
+    display: flex;
+    flex-direction: row;
+}
+.CardSweetCrepe {
+    background-image: url(../images/backgroundMenu.png);
+    width: 325px;
+    height: 518px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 69px 18px;
+}
+.menu_hSweetCrepe {
+    font-family: 'ObjektivBold';
+    font-size: 45px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #12100d;
+}
+.menu_SwCPrice {
+    font-family: 'RobotoRegular';
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #12100d;
+}
+.DM_cardFood {
+    width: 674px;
+    height: 517px;
+}
+.CardFruitbowl {
+    background-image: url(../images/backgroundMenu.png);
+    width: 325px;
+    height: 518px;  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 69px 18px;
+}
+.menu_hFruitbowl {
+    font-family: 'ObjektivBold';
+    font-size: 47px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #12100d;
+}
+.menu_FBCPrice {
+    font-family: 'RobotoRegular';
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #12100d;
+    margin-bottom: 150px;
+}
+.block_5 {
+    display: flex;
+    flex-direction: row;
+}
+.decor3 {
+    width: 206px;
+    height: 201px;
+    margin-top: 146px;
+    margin-right: 94px;
+}
+.DM_cardFood2 {
+    width: 674px;
+    height: 518px;
+    background-image: url(../images/backgroundFood2.png);
+    display: flex;
+    align-items: center;
+}
+.DessertMenuCard {
+    font-family: 'VerveineRegular';
+    font-size: 166.7px;
+    line-height: 1.2;
+    font-weight: 400;
+    font-style: italic;
+    color: #000000;
+    margin-left: 113px;
+}
+.decor4 {
+    width: 206px;
+    height: 201px;
+    margin-top: 146px;
+    margin-left: 94px;
+}
+.block_6 {
+    display: flex;
+    flex-direction: row;
+}
+.CardMilkshake {
+    background-image: url(../images/backgroundMenu.png);
+    width: 325px;
+    height: 518px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 121px 20px;
+}
+.menu_hMilkshake {
+    font-family: 'ObjektivBold';
+    font-size: 47px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #12100d;
+}
+.menu_MPrice {
+    font-family: 'RobotoRegular';
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #12100d;    
+}
+.M_cardFood {
+    width: 999px;
+    height: 517px;    
+}
+.CONTACT_US {
+    margin-top: 82px;
+    width: 1440px;
+    height: 621px;
+    background-color: #e7e7e7;
+    background-image: url(../images/backgroundFoot.png);
+    padding: 100px 170px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.CONTACT_US_TEXT {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.h_ContactUs {
+    margin-top: 100px;
+    font-family: 'VerveineRegular';
+    font-size: 122.1px;
+    line-height: 122px;
+    font-weight: 400;
+    color: #151313;    
+}
+.text_ContactUs {
+    font-family: 'RobotoRegular';
+    font-size: 33.4px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #151313;  
+    margin-top: 82px;
+    text-align: center;
+}
+.social {
+    gap: 129px;
+    width: 37px;
+    height: 66px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 86px 420px;
+}
+.other_social1 {
+    width: 37px;
+    height: 66px;
+    background-image: url(../images/facebook.png);
+}
+.other_social2 {
+    width: 66px;
+    height: 66px;
+    background-image: url(../images/instagram.png);
+}
+.other_social3 {
+    width: 66px;
+    height: 50px;
+    background-image: url(../images/telegram.png);
+}
+.other_social4 {
+    width: 66px;
+    height: 54px;
+    background-image: url(../images/twitter.png);
+}

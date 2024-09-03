@@ -1,0 +1,20 @@
+.HeaderLink:hover {
+    color: aquamarine;
+    transition: 1s;
+}
+.other_social1:hover {
+    background-image: url(../images/fb.png);
+    transition: 1s;
+}
+.other_social2:hover {
+    background-image: url(../images/inst.png);
+    transition: 1s;
+}
+.other_social3:hover {
+    background-image: url(../images/tg.png);
+    transition: 1s;
+}
+.other_social4:hover {
+    background-image: url(../images/twit.png);
+    transition: 1s;
+}
